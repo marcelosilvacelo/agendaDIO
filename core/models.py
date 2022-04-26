@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User#modulo usuario django
+from datetime import date
 
 # Create your models here.
 class Evento (models.Model):
